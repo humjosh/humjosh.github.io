@@ -1,15 +1,8 @@
 $(document).ready(function () {
-    var sgBg = $('#singapore-image-slide-bg');
-    var sgTitle = $('#singapore-image-slide h2');
-
     var oxBg = $('#oxford-image-slide-bg');
     var oxTitle = $('#oxford-image-slide h2');
 
     $(window).on('scroll', function () {
-        sgPos = GetPos(sgBg);
-        FadeOut(sgBg, sgPos);
-        FadeIn(sgTitle, sgPos);
-
         oxPos = GetPos(oxBg);
         FadeOut(oxBg, oxPos);
         FadeIn(oxTitle, oxPos);

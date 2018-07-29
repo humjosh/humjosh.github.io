@@ -17,13 +17,11 @@ html {
 #home-image-slide {
     width: 100vw;
     height: 100vh;
+    position: relative;
 }
 
 #home-image-slide-bg {
     background-image: url('../images/sketch.jpg');
-    position: absolute;
-    left: 0;
-    top: 0;
 }
 
 #singapore-image-slide {
@@ -83,8 +81,6 @@ h1 {
 h2 {
     font-size: 1.5rem;
     color: #fffdf7;
-    text-transform: uppercase;
-    letter-spacing: 0.8rem;
 }
 
 h3 {
